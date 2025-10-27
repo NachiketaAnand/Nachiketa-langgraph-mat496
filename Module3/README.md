@@ -17,7 +17,7 @@ Instead of simply pausing for user approval, I learned how to use breakpoints to
 Changes made - I modified the input prompt to calculate the 6th Fibonacci number and added my own custom Fibonacci function. This helped me test how the agent handles user feedback and continues execution after interruptions.
 
 
-Video 4 
+Video 4 - dynamic breakpoints 
 Learned how to use NodeInterrupt() to create dynamic breakpoints that let the graph pause itself based on custom conditions during execution. This helps in controlling and debugging the flow dynamically.
 
 Changes made - I added a simple status field in the state to track the progress of the graph. It updates after each step to show which stage has been executed, making it easier to debug or resume later if needed.
