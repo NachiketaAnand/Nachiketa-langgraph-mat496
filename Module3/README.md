@@ -21,3 +21,9 @@ Video 4 - dynamic breakpoints
 Learned how to use NodeInterrupt() to create dynamic breakpoints that let the graph pause itself based on custom conditions during execution. This helps in controlling and debugging the flow dynamically.
 
 Changes made - I added a simple status field in the state to track the progress of the graph. It updates after each step to show which stage has been executed, making it easier to debug or resume later if needed.
+
+
+Video 5 - 
+Learned how to use get_state_history() to view the entire history of the graph. Also explored how to replay, edit, or branch from any previous step using checkpoint_id in graph.stream(), which is called time-travel.
+
+Changed made - Modified the example by changing the updated message so that the agent performs addition instead of multiplication.
