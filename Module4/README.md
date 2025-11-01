@@ -7,3 +7,7 @@ Chnages made: I modified the RAG example by adding a new rephrase_question node 
 
 <img width="1470" height="882" alt="Screenshot 2025-11-01 at 5 40 09 PM" src="https://github.com/user-attachments/assets/a7a1c4d1-f4cb-49d8-b2bb-3dc0e4612523" />
 
+Lesson 2 - Sub-graphs
+I learned how to define separate, independent graphs with their own state (sub-graphs) and then add them as nodes to a parent graph. This allows for building complex, multi-agent teams.
+
+Changes made: I kept the parallel execution of the two sub-graphs, but I added a final `create_final_report` node that "fans-in" the outputs from both sub-graphs to create a single, combined summary.
