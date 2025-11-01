@@ -11,3 +11,8 @@ Lesson 2 - Sub-graphs
 I learned how to define separate, independent graphs with their own state (sub-graphs) and then add them as nodes to a parent graph. This allows for building complex, multi-agent teams.
 
 Changes made: I kept the parallel execution of the two sub-graphs, but I added a final `create_final_report` node that "fans-in" the outputs from both sub-graphs to create a single, combined summary.
+
+Lesson 3 - Map-reduce
+I learned the "Map-Reduce" pattern, specifically how to use the Send primitive to dynamically "map" a list of items to parallel nodes for processing.
+
+Tweak/New Example: I modified the graph to change how the "Map" phase gets its data. Instead of using an LLM to generate a list of subjects, I removed that node and now provide the list of subjects directly as an input to the graph.
