@@ -15,4 +15,10 @@ Changes made: I kept the parallel execution of the two sub-graphs, but I added a
 Lesson 3 - Map-reduce
 I learned the "Map-Reduce" pattern, specifically how to use the Send primitive to dynamically "map" a list of items to parallel nodes for processing.
 
-Tweak/New Example: I modified the graph to change how the "Map" phase gets its data. Instead of using an LLM to generate a list of subjects, I removed that node and now provide the list of subjects directly as an input to the graph.
+Changes Made: I modified the graph to change how the "Map" phase gets its data. Instead of using an LLM to generate a list of subjects, I removed that node and now provide the list of subjects directly as an input to the graph.
+
+
+Lesson 4- 
+I learned how to build a multi agent system where several mini-agents work together some running in parallel and some combining their results to produce a single, well-organized report.
+
+Changes made: I modified the analyst instructions so the system must create both a “Skeptic” and an “Evangelist,” ensuring the final report includes balanced, opposing viewpoints.
